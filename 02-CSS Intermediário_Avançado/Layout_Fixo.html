@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS intermediário e Avançado</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f2f2f2;
+
+        }
+        #conteiner{
+            width: 720px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+
+        #marca{
+            height: 100px;
+            background-color: #9E9E9E;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        #conteudo{
+            width: 520px;
+            float: right;
+        }
+
+        #conteudo-principal{
+            width: 320px;
+            float: left ;
+        }
+        #conteudo-secundario{
+            width: 180px;
+            float: right ;
+            background-color: #d1d1d1;
+        }
+
+        #navegacao{
+            width: 180px;
+            float: left;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #d1d1d1;
+        }
+
+        #navegacao ul{
+            list-style: none;
+        }
+        #navegacao li a {
+            text-decoration: none;
+        }
+
+        #rodape{
+            clear: both;
+            background-color: #c4c4c4;
+            padding: 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <!--  Layout de largura fixa     -->
+
+    <div id="conteiner">
+        <div id="marca">Marca</div>
+        <div id="conteudo">
+            <div id="conteudo-principal">
+                <h2>Conteúdo principal</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Magnam cupiditate vel voluptates earum veritatis,
+                    quia cum ea qui nobis voluptatem itaque doloremque consequatur dolores, 
+                    sapiente similique sequi! Earum, doloremque recusandae!
+                </p>
+            </div>
+            <div id="conteudo-secundario">
+                <h2>Conteúdo Secundário</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Magnam cupiditate vel voluptates earum veritatis,
+                    quia cum ea qui nobis voluptatem itaque doloremque consequatur dolores, 
+                    sapiente similique sequi! Earum, doloremque recusandae!
+                </p>
+
+            </div>
+        </div>
+        <div id="navegacao">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SOBRE</a></li>
+                <li><a href="">NOTÍCIAS</a></li>
+                <li><a href="">PRODUTOS</a></li>
+                <li><a href="">CONTATO</a></li>
+            </ul>
+        </div>
+        <div id="rodape">Rodapé</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
